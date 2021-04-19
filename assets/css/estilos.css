@@ -458,7 +458,8 @@
         .content-bienvenida-1 {
             margin-left: 4px;
             margin-right: 4px;
-            padding-left: 4px;
+          padding-left: 22px;
+            padding-right: 22px;
         }
         .content-bienvenida-2 {
             float: none;
@@ -580,7 +581,8 @@
         .content-bienvenida-1 {
          margin-left: 4px;
             margin-right: 4px;
-            padding-left: 4px;
+            padding-left: 84px;
+            padding-right: 84px;
         }
         .content-bienvenida {
             width: auto;
