@@ -1,4 +1,4 @@
-                /* Start estilos */
+        /* Start estilos */
         
         body {
             overflow-x: hidden;
@@ -23,9 +23,39 @@
             margin-bottom: 80px;
         }
         
+        .introduccion {
+            background-image: url("../img/almacen.png");
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        .introduccion-div {
+            background-color: rgba(235, 30, 30, 0.911);
+            padding-top: 90px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-bottom: 40px;
+            font-size: 22px;
+            font-family: 'Raleway';
+            font-weight: 600;
+            color: rgb(230, 200, 198);
+            margin-bottom: 80px;
+            margin-top: 90px;
+            text-align: center;
+            height: 80%;
+        }
+        
         .beneficios {
             margin-bottom: 183px;
             margin-top: 100px;
+        }
+        
+        .content-video {
+            background-image: url(../img/background-video.png);
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
         }
         
         .content-registra {
@@ -33,11 +63,27 @@
         }
         
         .etiquetas {
-            margin-bottom: 80px;
+            margin-bottom: 0px;
+            background-image: url(../img/etiquetas-back.png);
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
         }
         
         .funciones {
             margin-bottom: 80px;
+            background-color: rgb(100, 98, 98);
+            font-size: 19px;
+            font-family: 'Raleway';
+            font-weight: 600;
+            color: white;
+            padding-top: 0px;
+        }
+        
+        .back-func {
+            background-image: url(../img/imagen-second.png);
+            background-position: center center;
+            background-size: cover;
         }
         
         .content-form {
@@ -57,31 +103,54 @@
         
         .nav-link {
             color: black;
-            font-size: 24px;
+            font-size: 20px;
             font-family: 'Raleway';
             font-weight: 600;
         }
         
         .nav-link:hover {
             color: #c11d10;
-            font-size: 24px;
+            font-size: 20px;
         }
         
         .link-sesion {
-            color: #c11d10!important;
-        }
-        
-        .link-sesion:hover {
-            color: black!important;
+            background-color: #c11d10;
+            width: 40px;
+            height: 40px;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            margin-right: 20px;
+            text-align: center;
+            margin-bottom: 10px;
         }
         
         .navbar-brand {
-            margin-right: 1rem!important;
+            margin-right: 12rem!important;
             ;
         }
         
         .navbar-nav {
             margin-bottom: 38px;
+        }
+        
+        .solicita-btn-inicio {
+            border-radius: 10px;
+            background-color: #c11d10;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Raleway';
+            text-align: center;
+        }
+        
+        .solicita-btn-inicio:hover {
+            border-radius: 10px;
+            background-color: #242222;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Raleway';
         }
         /*styles grals*/
         
@@ -105,8 +174,8 @@
         .footer {
             left: 0;
             bottom: 0;
-            background-color: rgb(219, 219, 219);
-            color: rgb(0, 0, 0);
+            background-color: rgb(20, 20, 20);
+            color: rgb(255, 255, 255);
         }
         /*Section- start now*/
         
@@ -256,6 +325,10 @@
         }
         /*Section-ETIQUETA*/
         
+        .etiquetas-title {
+            padding-top: 37px;
+        }
+        
         .content-text-etiquetas {
             padding-top: 80PX;
         }
@@ -310,19 +383,19 @@
         /*FOOTER STYLES*/
         
         .footer {
-            background-color: rgb(197, 197, 197);
+            background-color: rgb(0, 0, 0);
             padding-top: 43px;
             padding-bottom: 96px;
         }
         
         .footer-a {
-            color: black;
+            color: rgb(212, 199, 199);
             font-size: 20px;
             font-family: 'Raleway';
         }
         
         .footer-a:hover {
-            color: black;
+            color: rgb(255, 255, 255);
             font-size: 20px;
             font-weight: bold;
             font-family: 'Raleway';
@@ -330,9 +403,36 @@
         }
         
         .footer-a-2 {
-            color: black;
+            color: rgb(255, 255, 255);
             font-size: 20px;
             font-family: 'Raleway';
+        }
+        
+        .sub-video {
+            margin-top: 40px;
+            border: 20px solid #c65846;
+            background-color: white;
+            width: 650px;
+            height: 440px;
+        }
+        
+        .video-responsive {
+            position: relative;
+            padding-bottom: 63.25%;
+            /* 16/9 ratio */
+            padding-top: 0px;
+            /* IE6 workaround*/
+            overflow: hidden;
+        }
+        
+        .video-responsive video,
+        .video-responsive object,
+        .video-responsive embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
         /*comienzan mediaqueries*/
         
@@ -427,5 +527,21 @@
             }
             .footer-a-2:hover {
                 font-size: 15px;
+            }
+            .introduccion-div {
+                font-size: 15px;
+                padding-top: 40px;
+                padding-bottom: 0px;
+            }
+            .sub-video {
+                width: 291px;
+                height: 274px;
+                border: 5px solid #c65846;
+            }
+            .beneficios {
+                margin-bottom: 10px;
+            }
+            .content-video {
+                height: auto;
             }
         }
