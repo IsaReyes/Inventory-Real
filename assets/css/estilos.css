@@ -457,6 +457,7 @@
         }
         .content-bienvenida-1 {
             margin-left: 4px;
+            margin-right: 4px;
             padding-left: 4px;
         }
         .content-bienvenida-2 {
@@ -577,7 +578,8 @@
             font-size: 14px;
         }
         .content-bienvenida-1 {
-            margin-left: 4px;
+         margin-left: 4px;
+            margin-right: 4px;
             padding-left: 4px;
         }
         .content-bienvenida {
