@@ -1,0 +1,936 @@
+                         /* Start estilos */
+                         
+                         body {
+                             overflow-x: hidden;
+                         }
+                         
+                         section {
+                             width: 100%;
+                         }
+                         
+                         .container-principal {
+                             width: 100%;
+                             padding-right: 0px;
+                             padding-left: 0px;
+                             margin-right: auto;
+                             margin-left: auto;
+                         }
+                         
+                         .ir-arriba {
+                             background-repeat: no-repeat;
+                             font-size: 20px;
+                             color: black;
+                             cursor: pointer;
+                             position: fixed;
+                             bottom: 10px;
+                             right: 76px;
+                             z-index: 2;
+                         }
+                         
+                         .ir-arriba:hover {
+                             color: black;
+                         }
+                         
+                         .home {
+                             margin-bottom: 80px;
+                         }
+                         
+                         .introduccion {
+                             background-image: url("../img/almacen.png");
+                             background-position: center center;
+                             background-size: cover;
+                             height: 100vh;
+                         }
+                         
+                         .introduccion-div {
+                             background-color: rgba(235, 30, 30, 0.911);
+                             padding-top: 90px;
+                             padding-right: 20px;
+                             padding-left: 20px;
+                             padding-bottom: 40px;
+                             font-size: 22px;
+                             font-family: 'Raleway';
+                             font-weight: 600;
+                             color: rgb(230, 200, 198);
+                             margin-bottom: 80px;
+                             margin-top: 90px;
+                             text-align: center;
+                             height: 80%;
+                         }
+                         
+                         .beneficios {
+                             margin-bottom: 183px;
+                             margin-top: 100px;
+                         }
+                         
+                         .content-video {
+                             background-image: url(../img/background-video.png);
+                             background-position: center center;
+                             background-size: cover;
+                             height: 100vh;
+                         }
+                         
+                         .content-registra {
+                             margin-bottom: 76px;
+                         }
+                         /* .etiquetas {
+                             Padding-bottom: 60px;
+                             background-image: url(../img/etiquetas-back.png);
+                             background-position: center center;
+                             background-size: cover;
+                             height: 100%;
+                             margin-bottom: 0px;
+                         } */
+                         
+                         .img-etiquetas {
+                             padding-bottom: 80px;
+                         }
+                         
+                         .parrallax {
+                             background: #fff fixed no-repeat 50% 50%;
+                             background-size: cover;
+                         }
+                         
+                         #sectionE1 {
+                             background-image: url(../img/etiquetas-back.png);
+                         }
+                         
+                         #funciones {
+                             background-color: rgb(100, 98, 98);
+                         }
+                         
+                         .funciones {
+                             margin-bottom: 80px;
+                             font-size: 19px;
+                             font-family: 'Raleway';
+                             font-weight: 600;
+                             color: white;
+                             padding-top: 0px;
+                         }
+                         
+                         .img-funciones-movil {
+                             display: none;
+                         }
+                         
+                         .back-func {
+                             background-image: url(../img/imagen-second.png);
+                             background-position: center center;
+                             background-size: cover;
+                         }
+                         
+                         .content-form {
+                             margin-bottom: 150px;
+                         }
+                         
+                         .content-bienvenida-1 {
+                             margin-left: 20px;
+                             padding-left: 20px;
+                         }
+                         
+                         .content-grals {
+                             margin-left: 0px;
+                             padding-left: 0px;
+                         }
+                         /*Nav*/
+                         
+                         .nav-link {
+                             color: black;
+                             font-size: 20px;
+                             font-family: 'Raleway';
+                             font-weight: 600;
+                         }
+                         
+                         .nav-link:hover {
+                             color: #c11d10;
+                             font-size: 20px;
+                         }
+                         
+                         .link-sesion {
+                             background-color: #c11d10;
+                             width: 40px;
+                             height: 40px;
+                             -moz-border-radius: 50%;
+                             -webkit-border-radius: 50%;
+                             border-radius: 50%;
+                             margin-right: 20px;
+                             text-align: center;
+                             margin-bottom: 10px;
+                         }
+                         
+                         .navbar-brand {
+                             margin-right: 12rem;
+                             ;
+                         }
+                         
+                         .navbar-nav {
+                             margin-bottom: 38px;
+                         }
+                         
+                         .solicita-btn-inicio {
+                             border-radius: 10px;
+                             background-color: #c11d10;
+                             color: white;
+                             font-size: 16px;
+                             font-weight: 600;
+                             font-family: 'Raleway';
+                             text-align: center;
+                         }
+                         
+                         .solicita-btn-inicio:hover {
+                             border-radius: 10px;
+                             background-color: #242222;
+                             color: white;
+                             font-size: 16px;
+                             font-weight: 600;
+                             font-family: 'Raleway';
+                         }
+                         /*styles grals*/
+                         
+                         h1 {
+                             font-size: 53px;
+                             color: rgb(0, 0, 0);
+                             font-weight: 800;
+                             font-family: 'Raleway', sans-serif;
+                             margin-bottom: 0px;
+                             padding-bottom: 0px;
+                             padding-left: 20px;
+                         }
+                         
+                         .font-gral {
+                             font-size: 19px;
+                             font-family: 'Raleway';
+                             font-weight: 600;
+                         }
+                         /*footer*/
+                         
+                         .footer {
+                             left: 0;
+                             bottom: 0;
+                             background-color: rgb(20, 20, 20);
+                             color: rgb(255, 255, 255);
+                         }
+                         /*Section- start now*/
+                         
+                         .img-principal {
+                             max-width: 100%;
+                             height: 408px;
+                             width: 706px;
+                         }
+                         
+                         .content-bienvenida {
+                             width: 500px;
+                             display: inline-block;
+                             margin-top: 93px;
+                         }
+                         
+                         .text-principal {
+                             font-size: 45px;
+                             color: rgb(0, 0, 0);
+                             font-weight: 800;
+                             font-family: 'Raleway';
+                             padding-left: 0px;
+                         }
+                         
+                         .content-bienvenida-2 {
+                             float: right;
+                             display: inline-block;
+                             height: 444px;
+                             width: 604px;
+                             background-image: url("../img/imagen-1.png");
+                             background-position: center center;
+                             background-size: cover;
+                             margin-right: 50px;
+                         }
+                         
+                         .sub-title-principal {
+                             font-size: 20px;
+                             color: rgb(0, 0, 0);
+                             font-weight: bold;
+                             font-family: 'Raleway';
+                         }
+                         
+                         .principal-boton {
+                             border-radius: 20px;
+                             background-color: #c11d10;
+                             color: white;
+                             font-size: 38px;
+                             font-weight: 600;
+                             padding-top: 20px;
+                             padding-bottom: 22px;
+                             padding-right: 20px;
+                             padding-left: 20px;
+                             font-family: 'Raleway';
+                         }
+                         
+                         .principal-boton:hover {
+                             background-color: #c65846;
+                             color: white;
+                             font-size: 38px;
+                         }
+                         /*Section- Beneficios*/
+                         
+                         .icono-1 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-1.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-2 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-2.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-3 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-3.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-4 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-4.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-5 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-5.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-6 {
+                             width: 117px;
+                             height: 117px;
+                             background-image: url(../img/icono-6.png);
+                             float: left;
+                             margin-left: 20px;
+                             margin-right: 20px;
+                             background-repeat: no-repeat;
+                             background-size: cover;
+                         }
+                         
+                         .icono-1:hover,
+                         .icono-2:hover,
+                         .icono-3:hover,
+                         .icono-4:hover,
+                         .icono-5:hover,
+                         .icono-6:hover {
+                             filter: saturate(180%);
+                             -ms-transform: scale(1.1);
+                             /* IE 9 */
+                             -webkit-transform: scale(1.1);
+                             /* Safari 3-8 */
+                             transform: scale(1.1);
+                         }
+                         
+                         .text-ico-1 {
+                             font-size: 19px;
+                             font-family: 'Raleway';
+                             font-weight: 500;
+                         }
+                         /*Section- TITLE REGISTRA MOVIMIENTOS*/
+                         
+                         .content-title-registra {
+                             margin-top: 90PX;
+                             margin-bottom: 60px;
+                         }
+                         /*Section- REGISTRA MOVIMIENTOS*/
+                         
+                         .img-movil {
+                             float: left;
+                             padding-left: 0PX;
+                         }
+                         
+                         .content-text {
+                             margin-top: 22px;
+                         }
+                         /*Section-ETIQUETA*/
+                         
+                         .etiquetas-title {
+                             padding-top: 37px;
+                         }
+                         
+                         .content-text-etiquetas {
+                             padding-top: 80PX;
+                         }
+                         /*section-funciones*/
+                         
+                         .funciones-p {
+                             margin-top: 50px;
+                         }
+                         /*FORM STYLES*/
+                         
+                         .content-form.container.row>p {
+                             font-size: 19px;
+                             font-family: 'Raleway';
+                             font-weight: 500;
+                         }
+                         
+                         .div-header-form-movil {
+                             display: none;
+                         }
+                         
+                         .div-form {
+                             padding-left: 25px;
+                             padding-right: 25px;
+                             width: 100%;
+                             float: left;
+                         }
+                         
+                         .font-form {
+                             font-weight: 700;
+                             font-size: 22px;
+                             font-family: 'Raleway';
+                             color: rgb(109, 108, 108);
+                         }
+                         
+                         .input-form {
+                             background-color: #d8d7d7!important;
+                             border-radius: 0px!important;
+                         }
+                         
+                         .btn-registro {
+                             border-radius: 20px;
+                             background-color: #c11d10;
+                             color: white;
+                             font-size: 38px;
+                             font-weight: 600;
+                             padding-top: 10px;
+                             padding-bottom: 10px;
+                             padding-right: 20px;
+                             padding-left: 20px;
+                             font-family: 'Raleway';
+                         }
+                         
+                         .btn-registro:hover {
+                             background-color: #c65846;
+                             color: white;
+                         }
+                         /*FOOTER STYLES*/
+                         
+                         .footer {
+                             background-color: rgb(0, 0, 0);
+                             padding-top: 43px;
+                             padding-bottom: 96px;
+                         }
+                         
+                         .footer-a {
+                             color: rgb(212, 199, 199);
+                             font-size: 20px;
+                             font-family: 'Raleway';
+                         }
+                         
+                         .footer-a:hover {
+                             color: rgb(255, 255, 255);
+                             font-size: 20px;
+                             font-weight: bold;
+                             font-family: 'Raleway';
+                             text-decoration: none;
+                         }
+                         
+                         .footer-a-2 {
+                             color: rgb(255, 255, 255);
+                             font-size: 20px;
+                             font-family: 'Raleway';
+                         }
+                         
+                         .sub-video {
+                             margin-top: 40px;
+                             border: 20px solid #c65846;
+                             background-color: white;
+                             width: 650px;
+                             height: 381px;
+                         }
+                         
+                         .video-responsive {
+                             height: 100%;
+                             position: relative;
+                             padding-bottom: 0px;
+                             /* 16/9 ratio */
+                             padding-top: 0px;
+                             /* IE6 workaround*/
+                             overflow: hidden;
+                         }
+                         
+                         .video-responsive video,
+                         .video-responsive object,
+                         .video-responsive embed {
+                             position: absolute;
+                             top: 0;
+                             left: 0;
+                             width: 100%;
+                             height: 100%;
+                         }
+                         
+                         .content-bienvenida-movil {
+                             display: none;
+                         }
+                         
+                         .content-bienvenida-movil-1 {
+                             display: none;
+                         }
+                         
+                         .content-siguenos-movil {
+                             display: none;
+                         }
+                         /*comienzan mediaqueries*/
+                         
+                         @media (max-width: 523px) {
+                             body {
+                                 overflow-x: hidden;
+                             }
+                             .logo-inicio {
+                                 width: 116px;
+                             }
+                             .solicita-btn-inicio {
+                                 width: 166px;
+                             }
+                             .content-bienvenida {
+                                 width: auto;
+                                 margin-top: 5px;
+                                 padding-bottom: 31px;
+                                 text-align: center;
+                             }
+                             .content-bienvenida-1 {
+                                 margin-left: 4px;
+                                 margin-right: 4px;
+                                 padding-left: 22px;
+                                 padding-right: 22px;
+                             }
+                             .content-bienvenida-2 {
+                                 display: none;
+                             }
+                             .content-bienvenida-movil {
+                                 display: none;
+                             }
+                             .content-bienvenida-movil-1 {
+                                 margin-top: 20px;
+                                 margin-left: auto;
+                                 margin-right: auto;
+                                 display: inline-block;
+                                 width: 264px;
+                                 height: 182px;
+                                 background-image: url("../img/movil-man.png");
+                                 background-position: center center;
+                                 background-size: cover;
+                             }
+                             .text-principal {
+                                 font-size: 24px;
+                             }
+                             .text-ico-1 {
+                                 font-size: 15px;
+                                 padding-top: 14px;
+                             }
+                             .icono-1,
+                             .icono-2,
+                             .icono-3,
+                             .icono-4,
+                             .icono-5,
+                             .icono-6 {
+                                 width: 84px;
+                                 height: 81px;
+                                 margin-right: 5px;
+                             }
+                             .sub-title-principal {
+                                 font-size: 18px;
+                                 text-align: center;
+                             }
+                             .principal-boton {
+                                 font-size: 24px;
+                                 font-weight: 600;
+                                 padding-top: 12px;
+                                 padding-bottom: 12px;
+                             }
+                             .principal-boton:hover {
+                                 font-size: 24px;
+                                 font-weight: 600;
+                                 padding-top: 12px;
+                                 padding-bottom: 12px;
+                             }
+                             h1 {
+                                 text-align: center;
+                                 font-size: 23px;
+                                 padding-left: 0px;
+                             }
+                             .div-form {
+                                 width: auto;
+                                 float: none;
+                                 padding-left: 20px;
+                                 padding-right: 20px;
+                             }
+                             .div-header-form-movil {
+                                 display: inherit;
+                             }
+                             .content-grals {
+                                 margin-left: 2px;
+                                 padding-left: 2px;
+                             }
+                             .font-gral {
+                                 font-size: 15px;
+                             }
+                             .content-text-etiquetas {
+                                 padding-top: 28PX;
+                             }
+                             .btn-registro {
+                                 border-radius: 20px;
+                                 background-color: #c11d10;
+                                 color: white;
+                                 font-size: 24px;
+                                 font-weight: 600;
+                                 padding-top: 10px;
+                                 padding-bottom: 10px;
+                                 padding-right: 20px;
+                                 padding-left: 20px;
+                                 font-family: 'Raleway';
+                             }
+                             .btn-registro:hover {
+                                 font-size: 24px;
+                             }
+                             h2 {
+                                 font-size: 22px;
+                             }
+                             .logo-footer {
+                                 width: 138px;
+                                 margin-bottom: 30px;
+                             }
+                             .footer-a {
+                                 font-size: 12px;
+                             }
+                             .footer-a:hover {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2 {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2:hover {
+                                 font-size: 12px;
+                             }
+                             .introduccion-div {
+                                 margin-top: 180px;
+                                 font-size: 13px;
+                                 padding-top: 39px;
+                                 padding-bottom: 0px;
+                                 margin-bottom: -96px;
+                             }
+                             .sub-video {
+                                 width: 291px;
+                                 height: 274px;
+                                 border: 5px solid #c65846;
+                                 margin-top: 182px;
+                             }
+                             .beneficios {
+                                 margin-bottom: 10px;
+                             }
+                             .content-video {
+                                 background-image: url(../img/background-videomovil.png);
+                                 background-position: center center;
+                                 background-size: cover;
+                                 height: 700px
+                             }
+                             .div-header-form {
+                                 display: none;
+                             }
+                             .h2-footer {
+                                 font-size: 15px;
+                                 margin-top: 20px;
+                             }
+                             .footer {
+                                 padding-left: 48px;
+                                 padding-right: 48px;
+                             }
+                             .iconos-redes {
+                                 width: 25px;
+                             }
+                             .img-funciones-movil {
+                                 display: inherit;
+                             }
+                             .content-siguenos {
+                                 display: none;
+                             }
+                             .content-siguenos-movil {
+                                 display: inherit;
+                             }
+                             .funciones-p {
+                                 font-size: 15px;
+                             }
+                             .font-form {
+                                 font-size: 15PX;
+                             }
+                             .img-cellphone {
+                                 width: 112px;
+                             }
+                             .img-ipad {
+                                 width: 163px;
+                             }
+                         }
+                         
+                         @media (min-width:523px) and (max-width: 768px) {
+                             .navbar-brand {
+                                 margin-right: 0rem;
+                             }
+                             .nav-link {
+                                 font-size: 12px;
+                             }
+                             .logo-inicio {
+                                 width: 102px;
+                             }
+                             .logo-inicio {
+                                 font-size: 14px;
+                             }
+                             .introduccion {
+                                 height: 100%;
+                             }
+                             .introduccion-div {
+                                 height: 67%;
+                             }
+                             .content-bienvenida {
+                                 width: 266px;
+                                 margin-top: 0px;
+                             }
+                             .content-bienvenida-movil-1 {
+                                 display: none;
+                             }
+                             .content-bienvenida-movil {
+                                 display: inline-block;
+                                 width: 325px;
+                                 height: 188px;
+                                 background-image: url("../img/movil-man.png");
+                                 background-position: center center;
+                                 background-size: cover;
+                             }
+                             .content-bienvenida-2 {
+                                 display: none;
+                             }
+                             .text-principal {
+                                 font-size: 24px;
+                                 text-align: left;
+                             }
+                             /*iconos*/
+                             .icono-1,
+                             .icono-2,
+                             .icono-3,
+                             .icono-5,
+                             .icono-6,
+                             .icono-4 {
+                                 width: 76px;
+                                 height: 69px;
+                                 margin-left: 8px;
+                                 margin-right: 8px;
+                             }
+                             .text-ico-1 {
+                                 font-size: 11px;
+                             }
+                             .sub-title-principal {
+                                 font-size: 19px;
+                             }
+                             .principal-boton {
+                                 font-size: 24px;
+                             }
+                             .principal-boton:hover {
+                                 font-size: 24px;
+                             }
+                             .div-form {
+                                 width: auto;
+                                 float: none;
+                                 padding-left: 0px;
+                                 padding-right: 0px;
+                             }
+                             .sub-video {
+                                 margin-top: 0px;
+                                 width: 399px;
+                                 height: 246px;
+                             }
+                             .content-title-registra {
+                                 margin-top: 128PX;
+                             }
+                             .img-cellphone {
+                                 width: 112px;
+                             }
+                             .img-ipad {
+                                 width: 163px;
+                             }
+                             h1 {
+                                 text-align: center;
+                                 font-size: 23px;
+                                 padding-left: 0px;
+                             }
+                             .logo-footer {
+                                 width: 138px;
+                                 margin-bottom: 30px;
+                             }
+                             .h2-footer {
+                                 font-size: 15px;
+                                 margin-top: 20px;
+                             }
+                             .footer {
+                                 padding-left: 48px;
+                                 padding-right: 48px;
+                             }
+                             .iconos-redes {
+                                 width: 25px;
+                             }
+                             .footer-a {
+                                 font-size: 12px;
+                             }
+                             .footer-a:hover {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2 {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2:hover {
+                                 font-size: 12px;
+                             }
+                             .font-form {
+                                 font-size: 18PX;
+                             }
+                         }
+                         
+                         @media (min-width:769px) and (max-width: 815px) {
+                             .navbar-brand {
+                                 margin-right: 6rem;
+                             }
+                             .nav-link {
+                                 font-size: 13px;
+                             }
+                             .logo-inicio {
+                                 width: 102px;
+                             }
+                             .logo-inicio {
+                                 font-size: 14px;
+                             }
+                             .introduccion {
+                                 height: 100%;
+                             }
+                             .introduccion-div {
+                                 height: 67%;
+                             }
+                             .content-bienvenida {
+                                 width: 291px;
+                                 margin-top: 27px;
+                             }
+                             .content-bienvenida-movil-1 {
+                                 display: none;
+                             }
+                             .content-bienvenida-movil {
+                                 display: inline-block;
+                                 width: 383px;
+                                 height: 212px;
+                                 background-image: url("../img/movil-man.png");
+                                 background-position: center center;
+                                 background-size: cover;
+                             }
+                             .content-bienvenida-2 {
+                                 display: none;
+                             }
+                             .text-principal {
+                                 font-size: 24px;
+                                 text-align: left;
+                                 ;
+                             }
+                             /*iconos*/
+                             .icono-1,
+                             .icono-2,
+                             .icono-3,
+                             .icono-5,
+                             .icono-6,
+                             .icono-4 {
+                                 width: 76px;
+                                 height: 69px;
+                                 margin-left: 8px;
+                                 margin-right: 8px;
+                             }
+                             .text-ico-1 {
+                                 font-size: 11px;
+                             }
+                             .sub-title-principal {
+                                 font-size: 19px;
+                             }
+                             .principal-boton {
+                                 font-size: 24px;
+                             }
+                             .principal-boton:hover {
+                                 font-size: 24px;
+                             }
+                             .div-form {
+                                 width: auto;
+                                 float: none;
+                                 padding-left: 0px;
+                                 padding-right: 0px;
+                             }
+                             .sub-video {
+                                 margin-top: 0px;
+                                 width: 399px;
+                                 height: 246px;
+                             }
+                             .content-title-registra {
+                                 margin-top: 128PX;
+                             }
+                             .img-cellphone {
+                                 width: 112px;
+                             }
+                             .img-ipad {
+                                 width: 163px;
+                             }
+                             h1 {
+                                 text-align: center;
+                                 font-size: 23px;
+                                 padding-left: 0px;
+                             }
+                             .logo-footer {
+                                 width: 138px;
+                                 margin-bottom: 30px;
+                             }
+                             .h2-footer {
+                                 font-size: 15px;
+                                 margin-top: 20px;
+                             }
+                             .footer {
+                                 padding-left: 48px;
+                                 padding-right: 48px;
+                             }
+                             .iconos-redes {
+                                 width: 25px;
+                             }
+                             .footer-a {
+                                 font-size: 12px;
+                             }
+                             .footer-a:hover {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2 {
+                                 font-size: 12px;
+                             }
+                             .footer-a-2:hover {
+                                 font-size: 12px;
+                             }
+                             .font-form {
+                                 font-size: 18PX;
+                             }
+                         }
